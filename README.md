@@ -51,7 +51,7 @@ Back End Test
 
 <h2>Add User</h2>
 <p>URL:</p>
-<pre>http://drafour.com/demo/be-test/api/add-user</pre>
+<pre>http://drafour.com/demo/be-test/api/add-user?code=[CODE]&username=[USERNAME]&first_name=[FIRST_NAME]&last_name=[LAST_NAME]&email=[EMAIL]&password=[PASSWORD]&phone=[PHONE]&role=[ROLE]</pre>
 <p>Parameters Definition:</p>
 <table>
   <thead>
@@ -98,7 +98,7 @@ Back End Test
 
 <h2>Edit User</h2>
 <p>URL:</p>
-<pre>http://drafour.com/demo/be-test/api/edit-user</pre>
+<pre>http://drafour.com/demo/be-test/api/edit-user?code=[CODE]&id=[ID]&first_name=[FIRST_NAME]&last_name=[LAST_NAME]&email=[EMAIL]&password=[PASSWORD]&phone=[PHONE]&role=[ROLE]</pre>
 <p>Parameters Definition:</p>
 <table>
   <thead>
@@ -145,7 +145,7 @@ Back End Test
 
 <h2>Delete User</h2>
 <p>URL:</p>
-<pre>http://drafour.com/demo/be-test/api/delete-user</pre>
+<pre>http://drafour.com/demo/be-test/api/delete-user?code=[CODE]&id=[ID]</pre>
 <p>Parameters Definition:</p>
 <table>
   <thead>
@@ -168,7 +168,7 @@ Back End Test
 
 <h2>Get User</h2>
 <p>URL:</p>
-<pre>http://drafour.com/demo/be-test/api/get-user</pre>
+<pre>http://drafour.com/demo/be-test/api/get-user?code=[CODE]&username=[USERNAME]</pre>
 <p>Parameters Definition:</p>
 <table>
   <thead>
@@ -191,7 +191,7 @@ Back End Test
 
 <h2>Get User List</h2>
 <p>URL:</p>
-<pre>http://drafour.com/demo/be-test/api/get-user-list</pre>
+<pre>http://drafour.com/demo/be-test/api/get-user-list?code=[CODE]&page=[PAGE]</pre>
 <p>Parameters Definition:</p>
 <table>
   <thead>
