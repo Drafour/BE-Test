@@ -91,7 +91,7 @@ Back End Test
     </tr>
     <tr>
       <td><code>role</code></td>
-      <td><code>User role to be add.</code></td>
+      <td><code>User role to be add. There are 2 roles: Admin and Member.</code></td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ Back End Test
     </tr>
     <tr>
       <td><code>role</code></td>
-      <td><code>User role to be changed.</code></td>
+      <td><code>User role to be changed. There are 2 roles: Admin and Member.</code></td>
     </tr>
   </tbody>
 </table>
